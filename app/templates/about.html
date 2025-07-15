@@ -1,0 +1,171 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- START SINGLE PAGE DESIGN AREA -->
+    <section class="single-page-hero-area">
+      <div class="container">
+        <div class="grid grid-cols-12 items-center gap-6">
+          <div class="col-span-12">
+            <h2>About Me</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // END SINGLE PAGE DESIGN AREA -->
+    <!-- START RESUME EXPERIENCE DESIGN AREA -->
+    <div class="resume-area no-padding" id="resume">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-6">
+          <div class="col-span-12 md:col-span-6">
+            <div class="resume-wrapper wow fadeInUp delay-0-2s">
+              <div class="resume-box">
+                <span class="resume-date">2025 - Present</span>
+                <h2>Full Stack Developer</h2>
+                <span>@ Creative Monk</span>
+                <p>
+                  As a Full Stack Developer at Creative Monk, I'm at the forefront of building dynamic and responsive web applications. I leverage my expertise in **Next.js, React, MERN stack, Django, and Python** to deliver robust solutions from concept to deployment, ensuring a seamless user experience.
+                </p>
+              </div>
+              <div class="resume-box">
+                <span class="resume-date">2024 - 2025</span>
+                <h2>IT Trainer & Developer</h2>
+                <span>@ Chandigarh Academy of Digital Learning</span>
+                <p>
+                  At Chandigarh Academy of Digital Learning, I honed my skills not only as a developer but also as an educator. I was responsible for training aspiring IT professionals while simultaneously contributing to development projects, bridging the gap between theoretical knowledge and practical application.
+                </p>
+              </div>
+              <div class="resume-box">
+                <span class="resume-date">2021 - Present</span>
+                <h2>Freelance Web Developer</h2>
+                <span>Independent Projects</span>
+                <p>
+                  My freelance journey has allowed me to dive deep into a variety of projects, working with **WordPress and PHP** to create tailored web solutions for diverse clients. This experience has cultivated a strong sense of adaptability and problem-solving, enabling me to consistently deliver high-quality results.
+                </p>
+              </div>
+              </div>
+          </div>
+          <div class="col-span-12 md:col-span-6">
+            <div class="resume-wrapper wow fadeInUp delay-0-4s">
+              <div class="resume-box">
+                <span class="resume-date">2020 - 2024</span>
+                <h2>Bachelor of Technology (Information Technology)</h2>
+                <span>@ AKTU</span>
+                <p>
+                  During my Bachelor of Technology in Information Technology, I gained a comprehensive understanding of core computer science principles and software development methodologies. This foundational knowledge has been instrumental in my growth as a versatile full-stack developer.
+                </p>
+              </div>
+              <div class="resume-box">
+                <span class="resume-date">2018 - 2020</span>
+                <h2>Intermediate (CBSE)</h2>
+                <span>@ Saraswati Vidya Mandir Senior Secondary School</span>
+                <p>
+                  My intermediate education provided a strong academic grounding, fostering analytical thinking and problem-solving skills crucial for my journey into the field of information technology.
+                </p>
+              </div>
+              <div class="resume-box">
+                <span class="resume-date">2016 - 2018</span>
+                <h2>Highschool (ICSE)</h2>
+                <span>@ St. Antony's Inter Collage</span>
+                <p>
+                  My high school years laid the groundwork for my academic pursuits, encouraging a holistic approach to learning and preparing me for the rigors of higher education in technology.
+                </p>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / END RESUME EXPERIENCE DESIGN AREA -->
+    <!-- START SKILL DESIGN AREA -->
+    <section id="skills" class="skill-area">
+      <div class="container">
+        <div class="container-inner">
+          <div class="grid grid-cols-12 gap-6">
+            <div class="lg:col-span-12 xl:col-span-12">
+              <div
+                class="section-title section-black-title wow fadeInUp delay-0-2s mb-10"
+              >
+                <h2>Professional Skills</h2>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-12">
+              <div class="skill-items-wrap">
+                <div class="grid grid-cols-12 gap-6">
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-2s">
+                      <img src="{% static 'assets/images/skills/skill1.svg' %}" class="h-12" alt="Skill" />
+                      <h5>Python</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-3s">
+                      <img src="{% static 'assets/images/skills/skill2.svg' %}" class="h-12" alt="Skill" />
+                      <h5>Django</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-4s">
+                      <img src="{% static 'assets/images/skills/skill3.svg' %}" class="h-12" alt="Skill" />
+                      <h5>Next JS</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-5s">
+                      <img src="{% static 'assets/images/skills/skill4.svg' %}" class="h-12" alt="Skill" />
+                      <h5>React JS</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-2s">
+                      <img src="{% static 'assets/images/skills/skill5.svg' %}" class="h-12" alt="Skill" />
+                      <h5>React Native</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-3s">
+                      <img src="{% static 'assets/images/skills/skill6.svg' %}" class="h-12" alt="Skill" />
+                      <h5>PHP</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-4s">
+                      <img src="{% static 'assets/images/skills/skill7.svg' %}" class="h-12" alt="Skill" />
+                      <h5>Node JS</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-3"
+                  >
+                    <div class="skill-item wow fadeInUp delay-0-5s">
+                      <img src="{% static 'assets/images/skills/skill8.svg' %}" class="h-12" alt="Skill" />
+                      <h5>Wordpress</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / END SKILL DESIGN AREA -->
+
+{% endblock content %}

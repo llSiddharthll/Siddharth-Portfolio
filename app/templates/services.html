@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- START SINGLE PAGE DESIGN AREA -->
+    <section class="single-page-hero-area">
+      <div class="container">
+        <div class="grid grid-cols-12 items-center gap-6">
+          <div class="col-span-12">
+            <h2>Services</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // END SINGLE PAGE DESIGN AREA -->
+    <!-- START SERVICE DESIGN AREA -->
+    <section id="services" class="services-area no-padding">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-6">
+      <div class="col-span-12 md:col-span-7">
+        <div class="service-item wow fadeInUp delay-0-2s">
+          <i class="ri-arrow-right-up-line"></i>
+          <h5>01</h5>
+          <h4>Web Development</h4>
+          <p>Crafting responsive and dynamic web applications using modern front-end (React, HTML, CSS, JavaScript) and
+            back-end (Django, Node.js) technologies to deliver seamless user experiences.</p>
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-5 ">
+        <div class="service-item wow fadeInUp delay-0-4s">
+          <i class="ri-arrow-right-up-line"></i>
+          <h5>02</h5>
+          <h4>Machine Learning Solutions</h4>
+          <p>Developing and deploying intelligent machine learning models with TensorFlow and Hugging Face for
+            predictive analytics, natural language processing, and computer vision applications.</p>
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-5 ">
+        <div class="service-item wow fadeInUp delay-0-6s">
+          <i class="ri-arrow-right-up-line"></i>
+          <h5>03</h5>
+          <h4>Data Analysis & Visualization</h4>
+          <p>Transforming raw data into actionable insights through in-depth analysis and compelling visualizations
+            using SQL, Power BI, Python (NumPy, Pandas), and other advanced tools.</p>
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-7 ">
+        <div class="service-item wow fadeInUp delay-0-8s">
+          <i class="ri-arrow-right-up-line"></i>
+          <h5>04</h5>
+          <h4>Backend Development & APIs</h4>
+          <p>Building robust and scalable server-side applications, RESTful APIs, and microservices. Expertise includes
+            database management, authentication, and secure payment gateway integrations.</p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+    <!-- / END SERVICE DESIGN AREA -->
+
+{% endblock content %}
